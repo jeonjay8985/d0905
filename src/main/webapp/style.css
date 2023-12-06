@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+header{
+   height: 12%;
+   line-height: 1.8;
+   padding: 15px; 
+   background-color: #0080ff;
+   text-align: center;
+   font-size: 3rem;
+   font-weight: bold;
+   color: white; 
+}
+
+nav{
+   height:83%;
+   width: 15%;
+   background-color: black;
+   float:left; 
+}
+
+nav a{
+    text-decoration: none;
+    padding: 0px;
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+}
+
+nav a:hover {
+  background-color: #333;
+}
+
+nav li{
+   display: inline;
+   line-height: 2.8;
+   padding: 0;
+   text-align: center;
+}
+
+nav ul{
+   list-style-type: none;
+   padding: 2% 0;
+   margin: 0px;
+   width: 170px;
+
+}
+
+footer{
+    height: 5%;
+    background-color: grey;
+    line-height: 2.5;
+    text-align: center;
+    color: white;
+    clear:both;
+}
+
+section{
+    height: 83%;
+    width:85%;
+    float:right;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+html, body{
+   height: 100%;
+   width: 100%;
+}
+#tab1{
+     margin: 0 auto;
+     width: 95%;
+     text-align: center;
+}
+#tab2{
+     margin: 0 auto;
+     width: 70%;
+     text-align: center, left;
+ 
+}
+#tab3{
+     margin: 0 auto;
+     width: 50%;
+ 
+}
+section h1{
+     text-align: center;
+}
+
+#in1{
+     height: 30px;
+     width: 100%;
+}
+#in2{
+     height: 30px;
+     width: 55%;
+}
+
+#bt1{
+     height: 30px;
+     width: 20%;
+  
+}
+#bt2{
+     height: 30px;
+     width: 20%;
+
+}
